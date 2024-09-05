@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(217, 243, 244, 0.25);
+}
+
+.head {
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+
+.head_head {
+    height: 110px;
+    width: 1180px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+}
+
+.head_zhanwei {
+    float: left;
+    width: 310px;
+    background-color: transparent;
+}
+
+.head_logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin: 15px 20px 5px 20px;
+    background-image: url(picture/SWUFE_LOGO.png);
+    background-size: 80px 80px;
+    border-radius: 40px;
+    /* background-color: rgb(154, 154, 206); */
+}
+
+.head_name {
+    float: left;
+    width: 300px;
+    height: 50px;
+    margin: 30px 10px 20px 10px;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    /* background-color: rgb(154, 154, 206); */
+}
+
+.head_select {
+    float: left;
+    height: 50px;
+    width: 350px;
+    margin: 30px 10px 20px 10px;
+    /* background-color: rgb(154, 154, 206); */
+}
+
+.head_select_input {
+    float: left;
+    height: 28px;
+    width: 240px;
+    margin: 12.5px 0px 20px 5px;
+    /* border-color: rgba(163, 163, 212, 0.584); */
+}
+
+.head_select_sure {
+    float: left;
+    height: 32px;
+    width: 50px;
+    margin: 12.5px 10px 20px 0px;
+}
+
+.head_application {
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin: 35px 10px 20px 10px;
+}
+
+.head_back_index {
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin: 0px 10px 20px 10px;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+.head_go_to_real {
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 0px 10px 20px 10px;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+.head_back_index_link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.head_back_index_link:hover {
+    text-decoration: underline;
+    color: rgb(53, 129, 192);
+}
+
+.head_go_to_real_link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.head_go_to_real_link:hover {
+    text-decoration: underline;
+    color: rgb(53, 129, 192);
+}
+
+.big_pic {
+    height: 560px;
+    background-image: url(picture/SWUFE_SCHOOL.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.gg {
+    /* 广告 位置 盒子*/
+    height: 560px;
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(255, 255, 255,0.3); */
+}
+
+.row_all {
+    float: left;
+    width: 220px;
+}
+
+.row {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.row:hover {
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.68);
+}
+
+.good_teacher {
+    float: right;
+    width: 220px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.good_teacher_block {
+    width: 220px;
+    height: 300px;
+    margin: 130px auto 130px;
+    /* background-color: rgba(255, 255, 255); */
+    border-radius: 30px;
+}
+
+.good_teacher_title {
+    height: 60px;
+    background-color: rgba(103, 181, 180, 0.653);
+    text-align: center;
+    line-height: 60px;
+    font-weight: 800;
+    color: aliceblue;
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.good_teacher_row {
+    height: 80px;
+    background-color: rgba(209, 218, 218, 0.73);
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.good_teacher_row:hover {
+    height: 85px;
+    width: 110%;
+    background-color: rgba(209, 218, 218, 0.73);
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.68);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.last_teeacher_row {
+    height: 80px;
+    background-color: rgba(209, 218, 218, 0.73);
+    text-align: center;
+    line-height: 80px;
+    font-weight: 400;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.row_link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.teacher_link {
+    color: black;
+    text-decoration: none;
+}
+
+.class_all {
+    width: 1200px;
+    height: 450px;
+    margin: 20px auto;
+    /* background-color: rgba(236, 84, 84, 0.264); */
+}
+
+.class_title {
+    height: 40px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "华文隶书";
+}
+
+.class_content_block {
+    float: left;
+    height: 380px;
+    width: 1200px;
+    /* background-color: chocolate; */
+}
+
+.class_teacher_photo {
+    float: left;
+    height: 380px;
+    width: 300px;
+    background-image: url(picture/teacher_Xu.png);
+    background-size: 300px 380px;
+    background-repeat: no-repeat;
+}
+
+.class_teacher_photo:hover {
+    float: left;
+    height: 380px;
+    width: 300px;
+    background-image: url(picture/teacher_Xu.png);
+    background-size: 300px 380px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.68);
+    transform: scale(1.05);
+}
+
+.class_teacher_price {
+    float: left;
+    height: 80px;
+    width: 300px;
+    background-color: rgba(234, 233, 232, 0.3);
+    margin-top: 300px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "华文行楷";
+}
+
+.book_title {
+    float: left;
+    height: 80px;
+    width: 900px;
+    background-color: rgb(148, 146, 151, 0.2);
+    text-align: center;
+    line-height: 80px;
+    font-family: "华文行楷";
+    font-size: 30px;
+}
+
+.book_list {
+    float: left;
+    height: 300px;
+    width: 900px;
+    background-color: rgb(148, 146, 151, 0.2);
+}
+
+.book {
+    float: left;
+    height: 280px;
+    width: 200px;
+    margin: 0px 40px 0px 58px;
+    /* background-color: aqua; */
+}
+
+.book_price {
+    float: left;
+    height: 80px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.7);
+    margin-top: 200px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "华文行楷";
+}
+
+.book:hover {
+    float: left;
+    height: 280px;
+    width: 200px;
+    margin: 0px 40px 0px 58px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.68);
+    transform: scale(1.1);
+}
+
+.optimz {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/R-C.jpg);
+    background-size: 200px 280px;
+}
+
+.jiliang {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/teacher_XU_big.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.DL {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/DL.png);
+    background-size: 200px 280px;
+    background-repeat: no-repeat;
+}
+
+.school_content_block {
+    float: left;
+    height: 380px;
+    width: 1200px;
+    /* background-color: chocolate; */
+}
+
+.school_title {
+    float: left;
+    height: 80px;
+    width: 1200px;
+    background-color: rgb(148, 146, 151, 0.2);
+    text-align: center;
+    line-height: 80px;
+    font-family: "华文行楷";
+    font-size: 30px;
+}
+
+.school_list {
+    float: left;
+    height: 300px;
+    width: 1200px;
+    background-color: rgb(148, 146, 151, 0.2);
+}
+
+
+.school {
+    float: left;
+    height: 280px;
+    width: 200px;
+    margin: 0px 40px 0px 58px;
+    /* background-color: aqua; */
+}
+
+.school_price {
+    float: left;
+    height: 80px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 200px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "华文行楷";
+}
+
+.school:hover {
+    float: left;
+    height: 280px;
+    width: 200px;
+    margin: 0px 40px 0px 58px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.68);
+    transform: scale(1.1);
+}
+
+.jiaoshi {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/jiaoshi.jpg);
+    background-size: 200px 280px;
+}
+
+.qinshi {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/qinshi.jpg);
+    background-size: 200px 280px;
+}
+
+.zixishi {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/zixishi.jpg);
+    background-size: 200px 280px;
+}
+
+.tushuguan {
+    height: 280px;
+    width: 200px;
+    background-image: url(picture/tushuguan.jpg);
+    background-size: 200px 280px;
+}
+
+.mulu {
+    height: 80px;
+    width: 1200px;
+    margin: 20px auto 10px;
+    background-color: rgb(148, 146, 151, 0.1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mulu_title {
+    height: 80px;
+    width: 200px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    border-style: solid;
+    border-width: 0px 1.5px 0px 0px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(62, 92, 92);
+    font-size: 20px;
+}
+
+.mulu_content {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    line-height: 80px;
+    border-style: dashed;
+    border-width: 0px 1px 0px 0px;
+}
+
+.good_teacher_link {
+    text-decoration: none;
+    color: black;
+}
+
+.mulu_content:hover {
+    height: 80px;
+    width: 200px;
+    float: left;
+    font-size: 16.5px;
+    text-align: center;
+    line-height: 80px;
+    border-style: dashed;
+    border-width: 0px 1px 0px 0px;
+}
